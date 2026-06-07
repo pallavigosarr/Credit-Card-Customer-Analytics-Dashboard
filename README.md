@@ -7,7 +7,7 @@ A dynamic financial dashboard designed to provide real-time, actionable insights
 * **Key Metrics:** Revenue, Total Interest, Transaction Amount, At Risk Revenue, Transaction Frequency, Profit
 * **Granular Views:** Analysis by quarter, gender, card type (Blue, Silver, Gold, Platinum), and expense category (Bills, Entertainment, Fuel, Grocery, Food, Travel), Relation between revolving balance and utilization ratio, Revenue trend, WOW revenue growth %
 * **Drill Though:** Expense Type baars are drilled through Analysis showing type of payment method used among( Online, Swipe and Chip) based on age group.
-* **Page Navigation:** Button navigated to Decomposition Tree showing analysis of Total Revolving Balance
+* **Page Navigation:** Button navigated to Decomposition Tree showing analysis of Total Revolving Balance.
 * **Screenshots**:
 <img width="892" height="498" alt="Credit_card_transaction_report" src="https://github.com/user-attachments/assets/beac8c42-9188-4eb9-a56a-6f9961c93cf8" />
 <img width="650" height="401" alt="Drill_through_page" src="https://github.com/user-attachments/assets/86aada48-56e7-47bb-9e7d-90f049fcaf84" />
