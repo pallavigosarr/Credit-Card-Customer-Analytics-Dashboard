@@ -1,5 +1,5 @@
 # Credit_Card_Transaction_Analysis
-A dynamic financial dashboard designed to provide real-time, actionable insights into credit card operations, transaction patterns, and customer demographics. This project enables financial stakeholders to effectively monitor key performance indicators (KPIs), track revenue streams, and analyze consumer spending behavior.
+A dynamic dashboard designed to provide real-time, actionable insights into credit card operations, transaction patterns, and customer demographics. This project enables financial stakeholders to effectively monitor key performance indicators (KPIs), track revenue streams, and analyze consumer spending behavior.
 
 ## 📊 Dashboard Previews
 ### 1. Credit Card Transaction Report
