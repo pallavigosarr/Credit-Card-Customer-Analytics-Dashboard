@@ -88,14 +88,11 @@ Credit_Card_Transaction_Analysis
 │   └── Analysis_of_revolving_bal.png
 │   └── Drill_through_page.png
 │
-├── dashboard/
-│   └── Online_Retail_Store.pbix
+├── Dashboard/
+│   └── Credit_Card_Dashboard.pbix
 │
-├── presentation/
-│   └── Online_Retail_Data_Analysis.mp4
-│
-├── Certificate/
-│   └── Tata_Internship_certificate.pdf
+├── Overview/
+│   └── Overview.docx
 │
 └── README.md
 ```
