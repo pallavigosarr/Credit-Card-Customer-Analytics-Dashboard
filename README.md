@@ -46,16 +46,58 @@ A dynamic financial dashboard designed to provide real-time, actionable insights
 * **Business Intelligence:** Microsoft Power BI Desktop
 * **Database / Data Source:**  Flat CSV Files
 * **Data Transformation:** Power Query (ETL process, data cleaning, custom column creation)
-* **Analytical Calculations:** DAX (Data Analysis Expressions) for custom KPIs
+* **Analytical Calculations:** DAX (Data Analysis Expressions) for time-intelligence and custom KPIs
 
 ## 📈 DAX Formulas & Custom Metrics
 
 Below are examples of the custom time-intelligence metrics created for this analysis:
+
+Previous_week_rev = 
+var maxweek= MAX(CreditCard[week_no])
+RETURN
+CALCULATE(
+    [Total_Revenue],
+    CreditCard[week_no]=maxweek-1
+)
+
+Current_week_rev = 
+var Maxweek=MAX(CreditCard[week_no])
+RETURN
+CALCULATE([Total_Revenue], CreditCard[week_no]=Maxweek)
+
+WoW Revenue Growth % = 
+   DIVIDE(
+        [Current_week_rev] - [Previous_week_rev],
+        [Previous_week_rev],
+        0
+    )
+    
 
 ## Repository Structure
 
 ```text
 Credit_Card_Transaction_Analysis
 /
+├── Data/
+│   └── CreditCard.csv
+│   └── Customer.csv
+|
+├── Screenshots/
+│   └── Credit_card_transaction_report.png
+│   └── Credit_card_customer_report.png
+│   └── Analysis_of_revolving_bal.png
+│   └── Drill_through_page.png
+│
+├── dashboard/
+│   └── Online_Retail_Store.pbix
+│
+├── presentation/
+│   └── Online_Retail_Data_Analysis.mp4
+│
+├── Certificate/
+│   └── Tata_Internship_certificate.pdf
+│
+└── README.md
+```
 
 
