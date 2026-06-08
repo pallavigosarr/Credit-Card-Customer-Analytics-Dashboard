@@ -26,20 +26,20 @@ A dynamic dashboard designed to provide real-time, actionable insights into cred
 ## 🚀 Key Insights & Findings
 *	Blue card category customers are highest revenue contributors (83.49%).
 *	Swipe method is highest used method among the total transactions volume (66.93%).
-*	Looking at the revenue trend we can see, revenue has gone up in months, January, April, July, October, December. July is the highest contributing month showing total revenue of INR 5.65 million and March is the lowest contributing month with total revenue of INR 4.2 million. Analysis is required here to find the reason.
-*	Week 53rd shows, highest WOW revenue growth %, i.e. 28.8%. Further analysis is required to find the reason.
+*	July is the highest contributing month showing total revenue of INR 5.65 million and March is the lowest contributing month with total revenue of INR 4.2 million. Analysis is required here to find the reason.
+*	Week 53rd shows, highest WOW revenue growth %, i.e. 28.8%. 
 *	At Risk Revenue of 3 Million shows, the revenue amount having delinquent_Acc =1 which can turned to be risky in future and needs to be monitored.
 *	Top revenue is contributed by client_num 920819113 from Medium income group having satisfaction score of 4 having occupation as Govt. 
 *	Bank has 5987 female customers and 4306 male customers.
-*	Among, transaction carried out, satisfaction score 3 is major contributor. 
+*	Among, transactions carried out, satisfaction score 3 is major contributor. 
 *	4188 customers have above average satisfaction score (4 and 5). 
 *	Out of total capacity of INR 8642, revolving balance is INR 1164, which is ~13%.
-*	Low income group contributes more to revenue and Businessmen are mong highest contributor according to occupation. Bank should focus more on marketing to get more revenue from high income group.
+*	Low income group contributes more to revenue and Businessmen are among highest contributor according to occupation. Bank should focus more on marketing to get more revenue from high income group.
 *	Age group of 46+ contributes 55.28% and age group 36-45 contributes 36.31% to revenue. Bank should pay attention on age group 26-35 by conducting surveys to understand their demands and should give discounts and offers to increase their contribution.
 *	We have 568 blue card customers with delinquent_acc value of 1 and total revolving balance of 6.36 lacs. They need to be paid attention to.
 *	Out of total customer acquisition cost spent, 74.3% amount is where customers have not activated the card within 30 days. Bank should take follow ups so customers activate the card within 30 days.
 *	Customers majorly contribute to revenue by using credit card for Bill payments.
-*	High Average utilization ratio and high average total revolving balance for Gold card with Delinquent_Acc value of 1 in Week 34 shows, customers have missed payment schedule and have used major portion of their credit limit. 
+ 
 
 ## 🛠️ Tech Stack & Skills Used
 
